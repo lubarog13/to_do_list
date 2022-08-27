@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Vela Sans';
+    src:  url('./Web/VelaSans-Bold.woff') format('woff'), url('./TTF/VelaSans-Bold.ttf') format('truetype'), url('./OTF/VelaSans-Bold.otf') format('opentype');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Vela Sans';
+    src:  url('./Web/VelaSans-Regular.woff') format('woff'), url('./TTF/VelaSans-Regular.ttf') format('truetype'), url('./OTF/VelaSans-Regular.otf') format('opentype');
+    font-style: normal;
+    font-weight: 400;
+}
