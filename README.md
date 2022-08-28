@@ -1,5 +1,5 @@
 # todolist
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8cb9e310-4b8b-4a26-aaf6-1cf3da4f7cec/deploy-status)](https://app.netlify.com/sites/neon-malabi-f357ae/deploys)
 ## Project setup
 ```
 npm install
