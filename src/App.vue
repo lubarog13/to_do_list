@@ -38,5 +38,8 @@ body, html, #app {
   @media (max-width: 500px) {
     margin: 60px auto;
   }
+  @media (max-width: 350px) {
+    width: 90%;
+  }
 }
 </style>

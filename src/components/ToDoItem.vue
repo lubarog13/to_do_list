@@ -54,11 +54,17 @@ export default {
   &__text {
     padding: 0 20px;
   }
+  &__status {
+    padding-left: 20px;
+  }
   &__date {
-    padding-left: 10px;
+    padding-left: 20px;
   }
   @media (max-width: 723px) {
     font-size: 12px;
+  }
+  @media (max-width: 349px) {
+    font-size: 10.5px;
   }
 }
 </style>
