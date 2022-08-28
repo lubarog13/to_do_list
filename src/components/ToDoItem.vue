@@ -21,7 +21,7 @@ export default {
 
 <style lang="scss" scoped>
 .item {
-  height: 58px;
+  padding: 19px 0;
   border-top: 1px solid #EEEBE9;
   border-bottom: 1px solid #EEEBE9;
   border-collapse: collapse;
@@ -53,10 +53,6 @@ export default {
   }
   &__text {
     padding: 0 20px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    line-height: 3;
-    max-height: 3*12px
   }
   &__date {
     padding-left: 10px;
