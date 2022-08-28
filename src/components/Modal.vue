@@ -40,6 +40,7 @@ export default {
     border: 1px solid #DDE2E4;
     box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
+    animation: 1s scaleIn ease-in;
   }
   &__close {
     position: absolute;
@@ -57,6 +58,18 @@ export default {
     &:hover {
       background-color: #2a4081;
     }
+    @media (max-width: 367px) {
+      top: 20px;
+      right: 20px;
+    }
+  }
+}
+@keyframes scaleIn {
+  from {
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
   }
 }
 </style>

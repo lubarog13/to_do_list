@@ -25,6 +25,14 @@ export default {
   border-top: 1px solid #EEEBE9;
   border-bottom: 1px solid #EEEBE9;
   border-collapse: collapse;
+  display: grid;
+  grid-template-columns: 80px 2fr 1fr 1fr;
+  @media (max-width: 441px) {
+    grid-template-columns: 40px 2fr 1fr 1fr;
+  }
+  &:hover {
+    background: #F6F9FF;
+  }
   &__check {
     width: 20px;
     height: 20px;
@@ -38,16 +46,23 @@ export default {
       background: url("../assets/images/check.svg") center center no-repeat;
       box-shadow: 0px 4px 4px rgba(19, 78, 193, 0.15);
     }
+    @media (max-width: 441px) {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
   &__text {
-    flex: 2;
     padding: 0 20px;
-  }
-  &__status {
-    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 3;
+    max-height: 3*12px
   }
   &__date {
-    flex: 1;
+    padding-left: 10px;
+  }
+  @media (max-width: 723px) {
+    font-size: 12px;
   }
 }
 </style>

@@ -10,3 +10,9 @@
     font-style: normal;
     font-weight: 400;
 }
+@font-face {
+    font-family: 'AGAvantGardeCyr Book';
+    src: url("./AGAGCB__.ttf");
+    font-style: normal;
+    font-weight: 400;
+}

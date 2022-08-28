@@ -35,5 +35,8 @@ body, html, #app {
   color: #16191D;
   width: 80%;
   margin: 100px auto;
+  @media (max-width: 500px) {
+    margin: 60px auto;
+  }
 }
 </style>

@@ -35,7 +35,8 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    addToDoItem({state, commit}, item) {
+    addToDoItem({state, commit}, text) {
+      let item = {id: state.toDoItems.map(item => item.id).sort((a, b) => b-a)[0]+1, complete: false, text: text, date: moment()}
       commit('setToDoItem', item)
       localStorage.setItem("items", JSON.stringify(state.toDoItems))
     },
